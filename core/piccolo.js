@@ -4,6 +4,7 @@ var events = require('events');
 var path = require('path');
 
 var common = require('./common.js');
+var handler = common.core('handler');
 
 function Piccolo() {
   
@@ -21,6 +22,9 @@ function Piccolo() {
   
   // Contain listen information
   this.address = null;
+  
+  // Store connect handler
+  this.handler = null;
 }
 util.inherits(Piccolo, events.EventEmitter);
 
@@ -29,6 +33,11 @@ module.exports = function () { return new Piccolo(); };
 // Allow developers to use there own submodules
 // Note this is a sync function
 Piccolo.prototype.overwrite = function (part, filepath) {
+  
+  // Check that no servers are attached
+  if (this.handler) {
+    throw new Error('A server has already been attach');
+  }
   
   // Check arguments
   if (arguments.length === 0) {
@@ -57,6 +66,11 @@ Piccolo.prototype.overwrite = function (part, filepath) {
 // Allow developers to use there own directory structur
 Piccolo.prototype.directory = function (what, dirpath) {
   
+  // Check that no servers are attached
+  if (this.handler) {
+    throw new Error('A server has already been attach');
+  }
+  
   // Check arguments
   if (arguments.length === 0) {
     throw new TypeError('No arguments was given');
@@ -82,44 +96,23 @@ Piccolo.prototype.directory = function (what, dirpath) {
     throw new Error('The path ' + dirpath + ' do not exist');
   }
   
+  // Overwrite default directory
   this.directories[what] = dirpath;
 };
 
-// Listen to a port or path
-Piccolo.prototype.listen = function (port, host) {
+// Attach a handler to a server instance
+Piccolo.prototype.attach = function (server) {
   
-  // check arguments
-  if (arguments.length === 0) {
-    throw new TypeError('No arguments was given');
+  // Check arguments
+  if (typeof server !== 'object' || server === null) {
+    throw new TypeError('A server object must be given');
   }
   
-  // Check port type
-  var portType = typeof port;
-  if (portType !== 'string' && portType !== 'number') {
-    throw new TypeError('first argument must be a filepath or a port number');
+  // Create handle for first time
+  if (this.handler === null) {
+    this.handlers = handler.setup(this);
   }
   
-  // A path was used
-  if (portType === 'string') {
-    
-    // set address with path
-    this.address = { 'path': host };
-    return;
-  }
-  
-  // Default host argument to 0.0.0.0
-  if (host === undefined) {
-    host = '0.0.0.0';  
-  }
-  
-  // Check that host is a string
-  else if (typeof host !== 'string') {
-    throw new TypeError('host must be a string'); 
-  }
-  
-  // set address with port and host
-  this.address = {
-    'port': port,
-    'host': host
-  };
+  // Attach handler to server
+  server.on('request', this.handlers);
 };
