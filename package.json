@@ -6,7 +6,7 @@
   "scripts": {
     "test": "vows test/simple/* --spec --isolate"
   },
-  "main": "./core/piccolo.js",
+  "main": "./lib/piccolo.js",
   "repository" : {
     "type": "git",
     "url": "git://github.com/AndreasMadsen/piccolo.git"
