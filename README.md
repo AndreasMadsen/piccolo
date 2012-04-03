@@ -2,26 +2,26 @@
 
 **isomorphic projection framework**
 
-> Isomorphism is commonly known as the thought of using the same code on both the
-> client and the server side. Since node.js this has been accomplished in a small
-> scale, but never in a big scale. Many have tried and ussually they succeed in a
-> limmited way. However issues with SEO and clients without JavaScript seams to
-> constantly show up. For half a year I have tried to come up with a new dessign
-> for isomorphism. This is my atempt fo reinvent the isomorphism and the thought
-> itself. The issues we are faceing are because the we forget the isomorphism, in
-> our eager to just develop something. I hope this project will result in something
-> significant diffrent.
-
-_Note when I speek about other people I'm just as much speaking about myself!_
+> Isomorphism is commonly known as the thought of using the same code on both
+> the client and the server side. Since node.js this has been accomplished in
+> a small scale, but never in a big scale. Many have tried and usually they
+> succeed in a limited way. However issues with SEO and clients without
+> JavaScript seams to constantly show up. For half a year I have tried to come
+> up with a new design for isomorphism. This is my attempt to reinvent
+> isomorphism and the thought itself. The issues we are facing are because we
+> forget the isomorphism, in our eager to just develop something. I hope this
+> project will result in something significant different.
+>
+> _Note when I speak about other people; I'm just as much speaking about myself!_
 
 ### Experimental
 
 This project is highly experimental there is not even a documented API yet. Before
-that can happen issues need to be solved. If you which be involed the the design
-process, there is a IRC you can join `#piccolo`.
+that can happen design issues need to be solved. If you which be involved the
+design process, you can join an IRC at `#piccolo` (freenodes).
 
-When the major design is cleared dissussion issues will be opened, but for now
-piccolo is moving to rappidly for that.
+When the major design is cleared discussion issues will be opened. But for now
+piccolo is moving to rapidly for that.
 
 ## License
 
