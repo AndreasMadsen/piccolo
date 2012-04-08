@@ -14,14 +14,16 @@
 >
 > _Note when I speak about other people; I'm just as much speaking about myself!_
 
-### Experimental
+### The future
 
-This project is highly experimental there is not even a documented API yet. Before
-that can happen design issues need to be solved. If you which be involved the
-design process, you can join an IRC at `#piccolo` (freenodes).
+Piccolo is highly experimental but do is a working framework since
+f666964fcee2c604ebbec0ab8574e1d32a26f9a3. However there is a long way to go before
+it become mainstrem for most developers and useful in a production environment.
 
-When the major design is cleared discussion issues will be opened. But for now
-piccolo is moving to rapidly for that.
+It is planed that piccolo 1.0.0 will be a useful version with a well defined API,
+documentation, examples and works across all used browsers. The todo exists as
+an issue list, but you are welcome to open your own requests issues. Any discussion
+about isomorphism itself should be on `#piccolo` (freenodes) or some other channel.
 
 ## License
 
