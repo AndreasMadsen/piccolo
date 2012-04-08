@@ -16,14 +16,15 @@
 
 ### The future
 
-Piccolo is highly experimental but do is a working framework since
+Piccolo is highly experimental but is a working framework since
 f666964fcee2c604ebbec0ab8574e1d32a26f9a3. However there is a long way to go before
-it become mainstrem for most developers and useful in a production environment.
+it becomes mainstrem for most developers and useful in a production environment.
 
-It is planed that piccolo 1.0.0 will be a useful version with a well defined API,
-documentation, examples and works across all used browsers. The todo exists as
-an issue list, but you are welcome to open your own requests issues. Any discussion
-about isomorphism itself should be on `#piccolo` (freenodes) or some other channel.
+The plan is that piccolo 1.0.0 will be an useful framework with a well defined API,
+documentation, examples and works across all used browsers. The todo list exists as
+a collection of issues, but you are welcome to open your own requests issues. Any
+discussion about isomorphism itself should be on `#piccolo` (freenodes) or some other
+channel.
 
 ## License
 
