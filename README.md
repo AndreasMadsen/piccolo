@@ -17,8 +17,9 @@
 ### The future
 
 Piccolo is highly experimental but is a working framework since
-f666964fcee2c604ebbec0ab8574e1d32a26f9a3. However there is a long way to go before
-it becomes mainstrem for most developers and useful in a production environment.
+[f666964fc](/AndreasMadsen/piccolo/commit/f666964fcee2c604ebbec0ab8574e1d32a26f9a3).
+However there is a long way to go before it becomes mainstrem for most developers
+and useful in a production environment.
 
 The plan is that piccolo 1.0.0 will be an useful framework with a well defined API,
 documentation, examples and works across all used browsers. The todo list exists as
