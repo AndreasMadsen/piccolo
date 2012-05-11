@@ -1,0 +1,4 @@
+{
+  "natives": ["util", "url", "events"],
+  "directories": ["temp", "static", "template", "modules", "presenter"]
+}
