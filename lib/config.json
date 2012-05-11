@@ -1,0 +1,8 @@
+{
+  "natives": ["utils", "url", "events"],
+  "settings": {
+    "reload": "auto",
+    "catch": "none"
+  },
+  "directories": ["temp", "static", "template", "modules"]
+}
