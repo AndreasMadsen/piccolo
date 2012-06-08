@@ -20,7 +20,9 @@
   "dependencies": {
     "connect": "2.0.x",
     "leaflet": "0.2.x",
-    "mapleTree": "0.1.x"
+    "mapleTree": "0.1.x",
+    "async": "0.1.x",
+    "wrench": "1.3.x"
   },
   "devDependencies": {
     "vows" :  "0.6.x"
