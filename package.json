@@ -1,7 +1,7 @@
 {
   "name": "piccolo",
   "description": "Isomorphic projection framework",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": "Andreas Madsen <amwebdk@gmail.com>",
   "scripts": {
     "test": "vows test/simple/* --spec --isolate"
@@ -18,7 +18,10 @@
     "framework"
   ],
   "dependencies": {
-    "connect": "2.0.3"
+    "leaflet": "0.2.x",
+    "flower": "0.4.x",
+    "async": "0.1.x",
+    "mime": "1.2.x"
   },
   "devDependencies": {
     "vows" :  "0.6.x"
