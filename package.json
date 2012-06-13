@@ -18,7 +18,6 @@
     "framework"
   ],
   "dependencies": {
-    "connect": "2.0.x",
     "leaflet": "0.2.x",
     "flower": "0.4.x",
     "async": "0.1.x",
