@@ -19,7 +19,7 @@
   ],
   "dependencies": {
     "leaflet": "0.3.x",
-    "flower": "0.4.x",
+    "flower": "0.5.x",
     "async": "0.1.x",
     "mime": "1.2.x",
     "uglify-js": "1.3.x"
