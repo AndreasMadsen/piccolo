@@ -14,6 +14,11 @@
 >
 > _Note when I speak about other people; I'm just as much speaking about myself!_
 
+### Example
+
+A primitive but very enlightning example can be found at:
+[/AndreasMadsen/piccolo-example](https://github.com/AndreasMadsen/piccolo-example).
+
 ### The future
 
 Piccolo is highly experimental but is a working framework since
@@ -21,11 +26,13 @@ Piccolo is highly experimental but is a working framework since
 However there is a long way to go before it becomes mainstrem for most developers
 and useful in a production environment.
 
-The plan is that piccolo 1.0.0 will be an useful framework with a well defined API,
-documentation, examples and works across all used browsers. The todo list exists as
-a collection of issues, but you are welcome to open your own requests issues. Any
-discussion about isomorphism itself should be on `#piccolo` (freenodes) or some other
-channel.
+The plan is that piccolo 0.6.0 will be an useful framework with a understandable API,
+documentation, examples and works across all used browser and 1.0.0 will be a
+proction ready platform with a well defined API.
+
+The todo list exists as a collection of issues, but you are welcome to open your own
+requests issues. Any discussion about isomorphism itself should be on `#piccolo`
+(freenodes) or some other channel.
 
 ## License
 
