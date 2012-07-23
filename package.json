@@ -18,6 +18,8 @@
     "framework"
   ],
   "dependencies": {
+    "domstream": "0.4.x",
+    "domstream-client": "0.2.x",
     "leaflet": "0.3.x",
     "flower": "0.5.x",
     "async": "0.1.x",
@@ -29,7 +31,7 @@
   },
   "license": "MIT",
   "engines": {
-    "node": "0.7 || 0.8",
+    "node": "0.8",
     "npm": "1"
   }
 }
