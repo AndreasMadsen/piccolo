@@ -18,6 +18,7 @@
     "framework"
   ],
   "dependencies": {
+    "safedir": "0.3.x",
     "domstream": "0.4.x",
     "domstream-client": "0.2.x",
     "leaflet": "0.3.x",
