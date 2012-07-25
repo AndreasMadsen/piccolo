@@ -25,6 +25,7 @@
     "flower": "0.5.x",
     "async": "0.1.x",
     "mime": "1.2.x",
+    "graceful-fs":  "1.1.x",
     "uglify-js": "1.3.x"
   },
   "devDependencies": {
