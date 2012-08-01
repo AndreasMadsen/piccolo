@@ -26,7 +26,7 @@ Piccolo is highly experimental but is a working framework since
 However there is a long way to go before it becomes mainstrem for most developers
 and useful in a production environment.
 
-The plan is that piccolo 0.6.0 will be an useful framework with a understandable API,
+The plan is that piccolo 0.7.0 will be an useful framework with a understandable API,
 documentation, examples and works across all used browser and 1.0.0 will be a
 proction ready platform with a well defined API.
 
