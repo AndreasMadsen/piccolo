@@ -21,18 +21,27 @@ A primitive but very enlightning example can be found at:
 
 ### The future
 
-Piccolo is highly experimental but is a working framework since
+Piccolo is highly experimental but is a working prove of concept framework since
 [f666964fce](/AndreasMadsen/piccolo/commit/f666964fcee2c604ebbec0ab8574e1d32a26f9a3).
-However there is a long way to go before it becomes mainstrem for most developers
+However there is a long way to go before it becomes mainstream for most developers
 and useful in a production environment.
 
-The plan is that piccolo 0.7.0 will be an useful framework with a understandable API,
-documentation, examples and works across all used browser and 1.0.0 will be a
-proction ready platform with a well defined API.
+The plan is that piccolo will be rewriting intro smaller modules and then be combined
+intro a framework with an understandable API, documentation, examples and works across
+all used browser. 1.0.0 will be a production ready platform with a well defined API.
 
 The todo list exists as a collection of issues, but you are welcome to open your own
 requests issues. Any discussion about isomorphism itself should be on `#piccolo`
 (freenodes) or some other channel.
+
+### Offspring
+
+Modules currently implemented as a result of piccolo:
+
+* [domstream](https://github.com/AndreasMadsen/domstream)
+* [domstream-client](https://github.com/AndreasMadsen/domstream-client)
+* [localizer](https://github.com/AndreasMadsen/localizer)
+* [modulebox](https://github.com/AndreasMadsen/modulebox)
 
 ## License
 
